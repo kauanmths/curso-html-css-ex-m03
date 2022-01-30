@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        table{
+            width: auto;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Verônica Nunes</td>
+                <td>Clone</td>
+                <td>Rei Leão</td>
+                <td>Ps: Eu te amo</td>
+            </tr>
+            <tr>
+                <td>Ivani da Mota</td>
+                <td>Toy Story</td>
+                <td>Cloverfield</td>
+                <td>Homem aranha 3</td>
+            </tr>
+            <tr>
+                <td>Aléxia Ramalho</td>
+                <td>Apenas o fim</td>
+                <td>Coraline</td>
+                <td>Harry Potter</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Gustavo Arantes</td>
+                <td>Nárnia</td>
+                <td>DogVille</td>
+                <td>Sociedade dos Poetas Mortos</td>
+            </tr>
+            <tr>
+                <td>Calebe Alves</td>
+                <td>Era uma vez em Hollywood</td>
+                <td>A viagem de Chihiro</td>
+                <td>Blade Runner</td>
+            </tr>
+            <tr>
+                <td>Márcio Araujo</td>
+                <td>Amnésia</td>
+                <td>Moonlight</td>
+                <td>Matrix</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
