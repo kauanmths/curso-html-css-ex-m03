@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        table{
+            width: auto;
+            border-collapse: collapse;
+        }
+    
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .nome{
+            background-color: gray;
+        }
+
+        .prof{
+            background-color: gray;
+        }
+    </style>
+</style>
+</head>
+<body>
+    <h1>Selecionando e Editando Colunas</h1>
+    <table>
+        <colgroup>
+          <col class="nome">
+          <col class="idade">
+          <col class="prof">
+        </colgroup>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissao</th>
+        </tr>
+        <tr>
+          <td>Marcos</td>
+          <td>22</td>
+          <td>Estudante</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>28</td>
+          <td>Escritora</td>
+        </tr>
+      </table>
+</body>
+</html>
